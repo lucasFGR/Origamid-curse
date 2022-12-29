@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/sttyle.css" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nomes" />
+
+      <label for="idade">idade</label>
+      <input type="number" id="idade" name="idade" />
+
+      <label for="Senha">Senha</label>
+      <input type="password" id="password" name="password" />
+
+      <label for="Email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="seuemail@provedor.com"
+      />
+
+      <div class="checkbox">
+        <input id="termos" type="checkbox" name="termos" value="aceito" />
+        <label for="termos">Aceito os termos</label>
+      </div>
+
+      <div class="checkbox">
+        <input id="emails" type="checkbox" name="emails" value="aceito" />
+        <label for="emails">Aceito receber e-mails</label>
+      </div>
+
+      <p>Entrega:</p>
+      <div class="radio">
+        <input id="retirada" type="radio" name="retirada" />
+        <label for="radio">Retirar no local</label>
+      </div>
+
+      <div class="radio">
+        <input id="entrega" type="radio" name="retirada" />
+        <label for="entrega">Entrega</label>
+      </div>
+
+      <label for="saida">Saida do hotel</label>
+      <input type="date" id="saida" name="saida" />
+
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

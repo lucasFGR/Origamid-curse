@@ -1,7 +1,13 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #0036;
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  background: #f7f7f7;
+  background: var(--fundo);
   display: grid;
   gap: 60px;
   justify-items: center;
